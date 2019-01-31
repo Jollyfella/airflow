@@ -5,6 +5,9 @@
 # (optional)
 export AIRFLOW_HOME=~/airflow
 
+# add dependency
+export SLUGIFY_USES_TEXT_UNIDECODE=yes
+
 # install from pypi using pip
 pip install apache-airflow
 
